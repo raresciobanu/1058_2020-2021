@@ -207,6 +207,12 @@ public:
 		a.nume = new char[strlen(aux) + 1];
 		strcpy_s(a.nume, strlen(aux) + 1, aux);
 
+		cout << "Nr ani inreg: "; in >> a.nrAniInregistrati;
+		a.kgInUltimiiAni = new double[a.nrAniInregistrati];
+		for (int i = 0; i < a.nrAniInregistrati; i++) {
+			in >> a.kgInUltimiiAni[i];
+		}
+
 		cout << "Culoare: "; in >> a.culoare;
 		cout << "Varsta: "; in >> a.varsta;
 
