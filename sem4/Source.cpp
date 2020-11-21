@@ -67,7 +67,9 @@ public:
 				index = i;
 				break;
 			}
-			aux[i] = this->kgInUltimiiAni[i];
+			if (i < nrAniInregistrati - 1) {
+				aux[i] = this->kgInUltimiiAni[i];
+			}
 		}
 
 		if (index != -1) {
@@ -78,6 +80,9 @@ public:
 			delete[] this->kgInUltimiiAni;
 			nrAniInregistrati--;
 			this->kgInUltimiiAni = aux;
+		}
+		else {
+			delete[] aux;
 		}
 	}
 	friend void afisare(Animal a);
