@@ -2,9 +2,9 @@
 
 using namespace std;
 
-class ExceptieCustom : exception {
+class ExceptieCustom : public exception {
 public:
-	const char* what() {
+	const char* what() const throw() {
 		return "ERROR: varsta animalului trebuie sa fie >0 si <40\n";
 	}
 };
