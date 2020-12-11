@@ -141,7 +141,6 @@
   <ItemGroup>
     <ClCompile Include="..\..\..\..\..\POO 2020-2021\Sem11GR1058\Sem11GR1058\Marinar.cpp" />
     <ClCompile Include="..\..\..\..\..\POO 2020-2021\Sem11GR1058\Sem11GR1058\Persoana.cpp" />
-    <ClCompile Include="..\..\..\..\..\POO 2020-2021\Sem11GR1058\Sem11GR1058\Programator.cpp" />
     <ClCompile Include="..\..\..\..\..\POO 2020-2021\Sem11GR1058\Sem11GR1058\Program_principal.cpp" />
   </ItemGroup>
   <ItemGroup>

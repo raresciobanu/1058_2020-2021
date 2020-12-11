@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\POO 2020-2021\Sem11GR1058\Sem11GR1058\Programator.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\..\..\POO 2020-2021\Sem11GR1058\Sem11GR1058\Marinar.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
